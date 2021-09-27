@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Forum;
+  src: url("assets/fonts/Forum/Forum-Regular.ttf");
+}
+
+:root {
+  --color-dark: #000;
+  --color-light: #fff;
+  --color-red: #710707;
+  --color-gold: #9D8665;
+  --color-gray: #666666;
+  --font-primary: Roboto, sans-serif;
+  --font-secondary: Forum, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+  font-family: var(--font-primary);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-gold);
+}
